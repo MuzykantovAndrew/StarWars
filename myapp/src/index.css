@@ -12,17 +12,16 @@ code {
     monospace;
 }
 
-h1 {
-  text-align: center;
-  font-size: large;
-  background-color:  pink;
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
-p {
-  font-size: medium;
-  background-color: plum;
-}
 
-ul {
-  background-color: purple;
+
+footer{
+  background-color: black;
+  color: white;
 }
