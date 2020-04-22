@@ -2,17 +2,17 @@ import React from 'react';
 
 
 
-function Navbar() {
+function Header() {
     return (
-        <header>
+        <div className="header">
             <h2>Navigation</h2>
-            <ul>
+            <ul className="navig">
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
-        </header>
+        </div>
     )
 }
 
-export default Navbar;
+export default Header;

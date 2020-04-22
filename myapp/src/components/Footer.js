@@ -1,16 +1,14 @@
-
-
 import React from 'react';
 
 
 
 function Footer() {
     return (
-        <footer>
+        <div className="footer">
            <p>
                Some Footer text
            </p>
-        </footer>
+        </div>
     )
 }
 
