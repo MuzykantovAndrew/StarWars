@@ -1,6 +1,7 @@
 import React from 'react'
-import TodoListApp from '../conteiners/todoListApp'
+import TodoListApp from '../containers/todoListApp'
 import Header from './Header'
+import Footer from './Footer'
 import '../style/todoList.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <>
             <Header />
             <TodoListApp />
+            <Footer />
         </>
     )
 }

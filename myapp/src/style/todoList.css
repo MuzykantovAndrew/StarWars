@@ -6,6 +6,14 @@
     color: #8989e7;
 }
 
+#notesFooter{
+    text-align: left;
+    margin: 20px;
+    font-style: italic;
+    font-family: cursive;
+    color: blueviolet;
+    
+}
 
 body{
     background-color: darkgray;
@@ -30,7 +38,7 @@ body{
     display: inline-block;
     margin: 30px;
     text-align: center;
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
     border-radius: 20%;
     padding: 20px;
 }
@@ -42,4 +50,8 @@ body{
 
 .btnAdd{
     vertical-align: baseline;
+}
+
+#notesMain{
+    min-height: 700px;
 }
