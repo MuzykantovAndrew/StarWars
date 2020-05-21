@@ -1,2 +1,9 @@
-
+body{
+  margin: 0;
+  /* background-image: url("https://www.desktopbackground.org/download/1366x768/2015/11/28/1049397_qianqian-li-design-vintage-paper-background-images_1600x1032_h.jpg"); */
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}   
 
