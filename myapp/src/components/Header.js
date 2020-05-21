@@ -1,15 +1,12 @@
-import React from "react";
-import "./css/header.css";
+import React from 'react';
 
 
-
-function Header () {
-        return (
-            <header className="header">
-                TO-DO LIST
-            </header>
-        );
-    
+function Header() {
+    return (
+        <div id="headerStarWars">
+            STARWARS
+        </div>
+    );
 }
 
 export default Header;

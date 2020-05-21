@@ -1,16 +1,17 @@
-import React from "react";
-import Header from "./Header";
-import Main from "./Main"
-import Authorization from "./Authorization";
+import React from 'react';
+import StarWars from './StarWars'
+import Header from './Header'
+import Footer from './Footer'
+
 
 function App() {
     return (
-        <React.StrictMode>
+        <div>
             <Header />
-            <Main />
-        </React.StrictMode>
+            <StarWars />
+            <Footer />
+        </div>
     );
-
 }
 
 export default App;
